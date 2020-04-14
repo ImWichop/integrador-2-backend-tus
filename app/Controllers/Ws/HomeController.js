@@ -6,7 +6,7 @@ class HomeController {
     this.request = request
   }
 
-  onLeds (data) {
+  onLed (data) {
     this.socket.broadcast('leds', data)
     console.log(data)
   }

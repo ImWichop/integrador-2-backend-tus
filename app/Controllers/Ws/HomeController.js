@@ -8,22 +8,22 @@ class HomeController {
 
   onLeds (data) {
     this.socket.broadcast('leds', data)
-    console.log('leds ' + data)
+    console.log(data)
   }
 
   onDoor (data) {
     this.socket.broadcast('doors', data)
-    console.log('puertas ' + data)
+    console.log(data)
   }
 
   onWeather (data) {
     this.socket.broadcast('weathers', data)
-    console.log('temperatura ' + data)
+    console.log(data)
   }
 
   onAlarm (data) {
     this.socket.broadcast('alarms', data)
-    console.log('alarma ' + data)
+    console.log(data)
   }
 }
 

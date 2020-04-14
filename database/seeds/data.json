@@ -1,0 +1,65 @@
+{
+  "users": [
+    {
+      "email": "test@test.com",
+      "password": "test"
+    }
+  ],
+  "doors":[
+    {
+      "name": "Door 1",
+      "feed": "Puerta1",
+      "value": "OFF"
+    },
+    {
+      "name": "Door 2",
+      "feed": "Puerta2",
+      "value": "OFF"
+    }
+  ],
+  "leds": [
+    {
+      "name": "Door 1",
+      "feed": "Cuarto1",
+      "value": "OFF"
+    },
+    {
+      "name": "Door 2",
+      "feed": "Cuarto2",
+      "value": "OFF"
+    },
+    {
+      "name": "Door 3",
+      "feed": "Cuarto3",
+      "value": "OFF"
+    },
+    {
+      "name": "Door 4",
+      "feed": "Cuarto4",
+      "value": "OFF"
+    },
+    {
+      "name": "Door 5",
+      "feed": "Cuarto5",
+      "value": "OFF"
+    }
+  ],
+  "alarms": [
+    {
+      "name": "Alarm",
+      "feed": "Alarma1",
+      "value": "OFF"
+    }
+  ],
+  "weathers":[
+    {
+      "degrees": 40
+    },
+    {
+      "degrees": 80
+    },
+    {
+      "degrees": 20
+    }
+  ]
+}

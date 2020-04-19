@@ -19,6 +19,12 @@ class WeatherController {
     return response.ok(weather)
   }
 
+  async getLast ({ request, response }) {
+    const weather = await Weather.query().orderBy('created_at', 'desc').limit(1).fetch()
+
+    return response.ok(weather)
+  }
+
   async update ({ request, response, params }) {
     const weather = await Weather.findOrFail(params.id)
     const weatherData = request.only(['degrees'])

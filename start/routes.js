@@ -26,6 +26,7 @@ Route.group(() => {
     .validator(new Map([
       [['weathers.store'], ['StoreWeather']]
     ]))
+  Route.get('weathersLast', 'WeatherController.getLast')
 
   Route.resource('alarms', 'AlarmController')
     .apiOnly()
